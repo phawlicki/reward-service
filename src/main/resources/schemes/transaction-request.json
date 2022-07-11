@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "customerId": {
+      "type": "string"
+    },
+    "amount": {
+      "existingJavaType": "java.math.BigDecimal"
+    }
+  },
+  "required": [
+    "customerId",
+    "amount"
+  ]
+}
